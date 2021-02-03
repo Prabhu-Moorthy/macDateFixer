@@ -1,0 +1,19 @@
+{
+  "name": "untitled-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "exif": "^0.6.0",
+    "get-exif": "^1.0.3",
+    "modify-exif": "0.0.1",
+    "piexifjs": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
