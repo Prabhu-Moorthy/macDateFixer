@@ -2,10 +2,14 @@ const fs = require('fs');
 const ExifImage = require('exif').ExifImage;
 const exec = require('child_process').exec;
 var staticDate;
-//staticDate ='200709080604.10';
+//staticDate ='201908171745.10';
 var dir = './images';
 var incrementSeconds = 0;
 var controlDate;
+
+var myArgs = process.argv.slice(2);
+
+if(myArgs[0]) dir = myArgs[0]
 
 fs.readdir(dir,function(err,files){
     if (err) throw err;
